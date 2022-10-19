@@ -1,0 +1,1 @@
+*{padding:0;margin:0}#index_panel{display:flex;flex-direction:column;justify-content:center;align-items:center;list-style:none;margin-top:200px}#index_panel li{width:700px;font-size:20px;margin-bottom:20px}#index_panel a{margin-left:50px;text-decoration:none;font-size:23px;color:black}#index_panel a:hover{text-decoration:underline}.article{width:600px;margin:30px auto 70px}

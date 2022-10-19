@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+
+
+
+
+
+
+<link rel="stylesheet" href="/github-markdown.css">
+
+    
+<link rel="stylesheet" href="/post.min.css">
+
+
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+
+        <body>
+            <article class="article markdown-body">
+
+    <h1>
+        test
+    </h1>
+
+    <h1 id="1、原始值与引用值"><a href="#1、原始值与引用值" class="headerlink" title="1、原始值与引用值"></a>1、原始值与引用值</h1><blockquote>
+<p>ECMAScript 变量包含两种类型的数据 <strong>原始值</strong> 和 <strong>引用值</strong>，js引擎操作变量时，原始值按值访问，引用值则按引用访问</p>
+</blockquote>
+<h2 id="1-1-动态属性"><a href="#1-1-动态属性" class="headerlink" title="1.1 动态属性"></a>1.1 动态属性</h2><pre><code>引用值可以随时添加、删除和修改其属性和方法
+</code></pre>
+<h2 id="1-2-复制值"><a href="#1-2-复制值" class="headerlink" title="1.2 复制值"></a>1.2 复制值</h2><pre><code>原始值直接将值复制过去，引用值将引用复制过去
+</code></pre>
+<p><img src="/2022/10/19/test/test.png" alt="原始值跟引用值复制"></p>
+<h2 id="1-3-传递参数"><a href="#1-3-传递参数" class="headerlink" title="1.3 传递参数"></a>1.3 传递参数</h2><pre><code>ECMAScript 中的所有函数都是按值传递的。函数外的值复制到函数内部的参数中就像从一个变量复制到另一个变量一样，引用值在函数内部发生改变，外部也会发生改变。
+</code></pre>
+<h2 id="1-4-确定类型"><a href="#1-4-确定类型" class="headerlink" title="1.4 确定类型"></a>1.4 确定类型</h2><ul>
+<li>typeof 对原始值很有用</li>
+<li>instanceof 操作符</li>
+</ul>
+<h1 id="1-执行上下文与作用域"><a href="#1-执行上下文与作用域" class="headerlink" title="1.执行上下文与作用域"></a>1.执行上下文与作用域</h1><h2 id="2-2变量声明"><a href="#2-2变量声明" class="headerlink" title="2.2变量声明"></a>2.2变量声明</h2><pre><code>var 关键字声明会被拿到函数或全局作用域的顶部
+let 声明的变量存在与块级中 &#123; let &#125;
+const 声明的变量必须初始化值，值不能被改变
+</code></pre>
+<blockquote>
+<p>let 在同一作用域中只能声明一次; var 可以重复多次；</p>
+</blockquote>
+
+
+</article>
+                
+        </body>
+
+        <script>
+            // hljs.initHighlightingOnLoad()需要在页面全部加载完毕后执行
+            hljs.initHighlightingOnLoad();
+        </script>
+
+        <script>
+            // hljs.initHighlightingOnLoad()需要在页面全部加载完毕后执行
+            hljs.initHighlightingOnLoad();
+        </script>
+
+</html>
